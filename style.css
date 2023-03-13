@@ -1,0 +1,39 @@
+* {
+    margin: 2% 0;
+    padding: 0;
+    text-align:center;
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 30%;
+    margin: 2% 35%;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.cell{
+    border: 1px solid black;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+
+
+#reset{
+    padding: 1% 2%;
+    margin-top: 0;
+}
+
+.disable_div{
+    pointer-events:none;
+}
+

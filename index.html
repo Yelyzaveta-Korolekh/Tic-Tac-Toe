@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="display">
+        <p id="display_text">Player <span class="display_player">X</span> turns</p>
+    </div>
+    <div id="container">
+        <div class="cell" id="cell1" onclick="color_active_cell()"></div>
+        <div class="cell" id="cell2" onclick="color_active_cell()"></div>
+        <div class="cell" id="cell3" onclick="color_active_cell()"></div>
+        <div class="cell" id="cell4" onclick="color_active_cell()"></div>
+        <div class="cell" id="cell5" onclick="color_active_cell()"></div>
+        <div class="cell" id="cell6" onclick="color_active_cell()"></div>
+        <div class="cell" id="cell7" onclick="color_active_cell()"></div>
+        <div class="cell" id="cell8" onclick="color_active_cell()"></div>
+        <div class="cell" id="cell9" onclick="color_active_cell()"></div>
+
+    </div>
+    <div class="controls">
+        <h2 class="status"></h2>
+        <button id="reset" onclick="restart()">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
